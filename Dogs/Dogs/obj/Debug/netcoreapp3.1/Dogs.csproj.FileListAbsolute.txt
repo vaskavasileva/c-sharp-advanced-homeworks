@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.exe
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.deps.json
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.runtimeconfig.json
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.dll
+C:\Users\Dell\source\repos\Dogs\Dogs\bin\Debug\netcoreapp3.1\Dogs.pdb
+C:\Users\Dell\source\repos\Dogs\Dogs\obj\Debug\netcoreapp3.1\Dogs.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Dogs\Dogs\obj\Debug\netcoreapp3.1\Dogs.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Dogs\Dogs\obj\Debug\netcoreapp3.1\Dogs.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Dogs\Dogs\obj\Debug\netcoreapp3.1\Dogs.dll
+C:\Users\Dell\source\repos\Dogs\Dogs\obj\Debug\netcoreapp3.1\Dogs.pdb
