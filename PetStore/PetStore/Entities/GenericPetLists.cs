@@ -7,7 +7,7 @@ namespace PetStore.Entities
 {
     public class GenericPetLists <T> where T : Pet
     {
-        public List<T> PetList = new List<T>();
+        public List<T> PetList { get; set; } = new List<T>();
         public void PrintPets()
         {
             foreach (var item in PetList)
@@ -19,15 +19,16 @@ namespace PetStore.Entities
         }
         
 
-        public void BuyPet(string name)
+        public void BuyPet(string name, Costumer costumer)
         {
             var pet = PetList.SingleOrDefault(item => item.Name == name);
             if (pet == null)
             {
                 Console.WriteLine("There is no such pet.");
-                return;
+                throw new Exception("No pet found.");
             }
             PetList.Remove(pet);
+            costumer.BoughtPets.Add(pet);
             Console.WriteLine($"You succesfully bought {pet.Name}.");
         }
 

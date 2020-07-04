@@ -10,6 +10,7 @@ namespace PetStore.Entities
         public string Name { get; set; }
         protected PetType Type { get; set; }
         public int Age { get; set; }
+        public int Price { get; set; }
         public virtual void PrintInfo()
         {
             Console.WriteLine($"The name of the pet is {Name}, he is a {Enum.GetName(typeof(PetType), Type)} and he is {Age} years old."); 

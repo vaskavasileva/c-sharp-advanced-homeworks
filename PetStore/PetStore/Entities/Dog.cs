@@ -13,7 +13,7 @@ namespace PetStore.Entities
         }
         public bool GoodBoi { get; set; }
         public string FavoriteFood { get; set; }
-        
+
         private string IsGood()
         {
             if (GoodBoi)

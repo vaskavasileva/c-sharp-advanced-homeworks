@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\obj\Debug\netcoreapp3.1\Calculations.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\obj\Debug\netcoreapp3.1\Calculations.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\obj\Debug\netcoreapp3.1\Calculations.AssemblyInfo.cs
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.exe
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.deps.json
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.runtimeconfig.json
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.dll
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\bin\Debug\netcoreapp3.1\Calculations.pdb
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\obj\Debug\netcoreapp3.1\Calculations.dll
+C:\Users\Dell\source\repos\CalculatingApp\Calculations\obj\Debug\netcoreapp3.1\Calculations.pdb
