@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.TimeTracker.App", "SEDC.TimeTracker.App\SEDC.TimeTracker.App.csproj", "{56102DB2-BC31-4B25-ABB5-BB00BE205E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.TimeTracker.Services", "SEDC.TimeTracker.Services\SEDC.TimeTracker.Services.csproj", "{60498265-E4D0-4F02-97B7-171F6D840050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.TimeTracker.Domain", "SEDC.TimeTracker.Domain\SEDC.TimeTracker.Domain.csproj", "{BDF65B1C-A96C-41F1-87BB-12292AAF3FF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56102DB2-BC31-4B25-ABB5-BB00BE205E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56102DB2-BC31-4B25-ABB5-BB00BE205E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56102DB2-BC31-4B25-ABB5-BB00BE205E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56102DB2-BC31-4B25-ABB5-BB00BE205E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60498265-E4D0-4F02-97B7-171F6D840050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60498265-E4D0-4F02-97B7-171F6D840050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60498265-E4D0-4F02-97B7-171F6D840050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60498265-E4D0-4F02-97B7-171F6D840050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF65B1C-A96C-41F1-87BB-12292AAF3FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF65B1C-A96C-41F1-87BB-12292AAF3FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF65B1C-A96C-41F1-87BB-12292AAF3FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF65B1C-A96C-41F1-87BB-12292AAF3FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A536D7-AEE6-4349-81A3-EFC56AC4BD1D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\bin\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.deps.json
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\bin\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.dll
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\bin\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.pdb
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\obj\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\obj\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\obj\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.AssemblyInfo.cs
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\obj\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.dll
+C:\Users\Dell\Desktop\c-sharp-advanced-homeworks\c-sharp-advanced-homeworks\SEDC.TimeTracker\SEDC.TimeTracker.Domain\obj\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.pdb

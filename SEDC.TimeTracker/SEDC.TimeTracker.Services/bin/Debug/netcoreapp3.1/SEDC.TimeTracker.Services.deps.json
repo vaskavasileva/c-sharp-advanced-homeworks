@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SEDC.TimeTracker.Services/1.0.0": {
+        "dependencies": {
+          "SEDC.TimeTracker.Domain": "1.0.0.0"
+        },
+        "runtime": {
+          "SEDC.TimeTracker.Services.dll": {}
+        }
+      },
+      "SEDC.TimeTracker.Domain/1.0.0.0": {
+        "runtime": {
+          "SEDC.TimeTracker.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.TimeTracker.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.TimeTracker.Domain/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

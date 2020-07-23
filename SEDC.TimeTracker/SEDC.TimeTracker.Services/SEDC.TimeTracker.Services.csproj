@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SEDC.TimeTracker.Domain">
+      <HintPath>..\SEDC.TimeTracker.Domain\bin\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
