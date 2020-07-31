@@ -85,6 +85,10 @@ namespace SEDC.TimeTracker.Services.Services
             return user;
         }
 
+        public List<User> GetAllUsers()
+        {
+            return _db.GetAll();
+        }
         
     }
 }

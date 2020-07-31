@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="SEDC.TimeTracker.Domain">
       <HintPath>..\SEDC.TimeTracker.Domain\bin\Debug\netcoreapp3.1\SEDC.TimeTracker.Domain.dll</HintPath>
     </Reference>

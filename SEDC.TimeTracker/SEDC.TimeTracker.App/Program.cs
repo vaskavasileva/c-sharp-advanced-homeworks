@@ -5,6 +5,7 @@ using SEDC.TimeTracker.Domain.Entities;
 using SEDC.TimeTracker.Domain.Enums;
 using SEDC.TimeTracker.Services.Helpers;
 using SEDC.TimeTracker.Services.Services;
+using Newtonsoft.Json;
 
 namespace SEDC.TimeTracker.App
 {
@@ -22,12 +23,32 @@ namespace SEDC.TimeTracker.App
         public static void Seed()
         {
             _userServices.Register(new User()
-            { FirstName = "John", LastName = "Doe", Age = 30, Username = "John123", Password = "123" });
+            { FirstName = "John", LastName = "Doe", Age = 30, Username = "John123", Password = "John123" });
             _userServices.Register(new User()
-            { FirstName = "Jane", LastName = "Doe", Age = 25, Username = "Jane456", Password = "456" });
+            { FirstName = "Jane", LastName = "Doe", Age = 25, Username = "Jane456", Password = "Jane456" });
         }
         static void Main(string[] args)
         {
+            if (File.Exists(_filePath))
+            {
+                using (StreamReader sr = new StreamReader(_filePath))
+                {
+                    while (true)
+                    {
+                        var lineToConvert = sr.ReadLine();
+                        if (lineToConvert == "")
+                        {
+                            break;
+                        }
+                        User user = JsonConvert.DeserializeObject<User>(lineToConvert);
+                        _userServices.Register(user);
+                    }
+                    
+                };
+
+                File.Delete(_filePath);
+            }
+
             Seed();
             bool mainMenu = true;
             while (mainMenu)
@@ -36,6 +57,7 @@ namespace SEDC.TimeTracker.App
                 if (_loggedUser == null)
                 {
                     var choice = _uiServices.LogInMenu();
+                    Console.Clear();
                     switch (choice)
                     {
                         case 1:
@@ -60,7 +82,9 @@ namespace SEDC.TimeTracker.App
                                         _loggedUser = null;
                                         break;
                                     }
+                                    break;
                                 }
+                                
 
                             }
 
@@ -75,6 +99,7 @@ namespace SEDC.TimeTracker.App
 
                 _uiServices.Welcome(_loggedUser);
 
+                Console.Clear();
                 int userMainMenuChoice = _uiServices.MainMenu();
                 string mainMenuChoice = _uiServices.MainMenuItems[userMainMenuChoice - 1];
                 switch (mainMenuChoice)
@@ -102,7 +127,8 @@ namespace SEDC.TimeTracker.App
                                 int timeHobbies = _trackServices.TrackActivity();
                                 _trackServices.TrackHobbies(timeHobbies, _loggedUser);
                                 break;
-                            default:
+                            case "Exit Application":
+                                mainMenu = false;
                                 break;
                         }
                         break;
@@ -231,6 +257,24 @@ namespace SEDC.TimeTracker.App
                 }
             }
 
+            if (!Directory.Exists(_folderPath))
+            {
+                Directory.CreateDirectory(_folderPath);
+            }
+
+            if (!File.Exists(_filePath))
+            {
+                File.Create(_filePath).Close();
+            }
+
+            foreach (var user in _userServices.GetAllUsers())
+            {
+                string jsonString = JsonConvert.SerializeObject(user);
+                using (StreamWriter sw = new StreamWriter(_filePath, true))
+                {
+                    sw.Write(jsonString);
+                }
+            }
             
         }
 

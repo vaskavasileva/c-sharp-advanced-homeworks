@@ -55,7 +55,7 @@ namespace SEDC.TimeTracker.Services.Services
 
         public int MainMenu()
         {
-            MainMenuItems = new List<string>() { "Track", "User Statistics", "Account Management", "Log out" };
+            MainMenuItems = new List<string>() { "Track", "User Statistics", "Account Management", "Log out", "Exit Application" };
             return ChooseFromMenu(MainMenuItems);
         }
 
